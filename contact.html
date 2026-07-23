@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Christ Apostolic Church International - Get in touch with us for prayers, inquiries, or to plan your visit.">
+    <meta name="keywords" content="contact church, church address, church phone, church email, visit church">
+
+    <title>Contact Us | Christ Apostolic Church International</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo1.png">
+</head>
+<body>
+    <!-- Skip Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+            <img src="images/logo1.png" alt="Church Logo">
+
+                
+                <span class="nav-logo-text">CACI</span>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="ministry.html" class="nav-link">Ministries</a></li>
+                <li><a href="sermons.html" class="nav-link">Sermons</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <h1>Contact Us</h1>
+            <p>We would love to hear from you</p>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <span>Contact</span>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title fade-in">Get In Touch</h2>
+                <p class="section-subtitle fade-in">Have questions or need prayer? Reach out to us!</p>
+
+                <div class="contact-grid">
+                    <!-- Contact Information -->
+                    <div class="contact-info fade-in slide-in-left">
+                        <h3>Contact Information</h3>
+
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>123 Church Street<br>Leeds LS10 2QE<br>United Kingdom</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+44 (0) 123 456 7890</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@caci-leeds.org.uk</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Service Times</h4>
+                                <p>Sunday Service: 10:00 AM<br>Bible Study: Wednesday 7:00 PM<br>Prayer Meeting: Friday 7:00 PM</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <h4>Connect With Us</h4>
+                            <div class="social-links">
+                                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper fade-in slide-in-right">
+                        <h3>Send Us a Message</h3>
+
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="" disabled selected>Select a subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="prayer">Prayer Request</option>
+                                    <option value="event">Event Information</option>
+                                    <option value="youth">Youth Ministry</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" placeholder="Enter your message here..." rows="5" required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Google Maps -->
+                <div class="map-container fade-in">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2371.4789040604857!2d-1.5336126841932466!3d53.77457328075485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48795e9c7e8e0b9d%3A0x3f1c1b8c1c6c6c6c!2sLS10%202QE%2C%20Leeds%2C%20UK!5e0!3m2!1sen!2s!4v1625000000000!5m2!1sen!2s"
+                        width="100%"
+                        height="400"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Christ Apostolic Church International Location">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section" style="background: var(--off-white);">
+            <div class="container">
+                <h2 class="section-title fade-in">Frequently Asked Questions</h2>
+                <p class="section-subtitle fade-in">Quick answers to common questions</p>
+
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="about-card fade-in delay-1">
+                        <h3 style="color: var(--primary-blue);">What time are your Sunday services?</h3>
+                        <p>Our Sunday worship service begins at 14:00 PM. If you arrive a little earlier, you're welcome to join us for a 10-15 minute pre-service prayer which typically begins at 1:45 .</p>
+                    </div>
+                    <div class="about-card fade-in delay-2">
+                        <h3 style="color: var(--primary-blue);">Is there parking available?</h3>
+                        <p>Yes, we have a dedicated parking area for church members and visitors.</p>
+                    </div>
+                    <div class="about-card fade-in delay-3">
+                        <h3 style="color: var(--primary-blue);">Do you have programs for children?</h3>
+                        <p>Absolutely! Our Children's Ministry provides engaging programs for children of all ages during our Sunday services. Your children will learn about God's love in a safe, fun environment.</p>
+                    </div>
+                    <div class="about-card fade-in delay-4">
+                        <h3 style="color: var(--primary-blue);">How can I get involved in ministry?</h3>
+                        <p>We encourage every member to find their place of service. Visit our Ministries page to learn about the different opportunities available, or speak with one of our leaders after service.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <p>Christ Apostolic Church International is a vibrant community of believers committed to spreading the Gospel and transforming lives through faith in Jesus Christ.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="ministry.html">Ministries</a></li>
+                        <li><a href="sermons.html">Sermons</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> CAC Church, Leeds LS10 2QE</li>
+                        <li><i class="fas fa-phone"></i> +44 (0) 123 456 7890</li>
+                        <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:cacileedscentral@gmail.com">cacileedscentral@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/1D46SfAcR9/?mibextid=wwXIfr" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@caci.leeds.centra?_r=1&_t=ZS-97tXfU2SJIj" aria-label="Twitter"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://youtube.com/@cacileeds-d8y" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Christ Apostolic Church International. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
